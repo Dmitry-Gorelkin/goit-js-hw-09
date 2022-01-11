@@ -78,18 +78,18 @@ function pad(value) {
 }
 
 function errorDate() {
-  // Notiflix.Report.failure('', 'Please choose a date in the future', 'Close');
-  Notiflix.Notify.failure('Please choose a date in the future', { timeout: 3000 });
+  Notiflix.Report.failure('', 'Please choose a date in the future', 'Close');
+  // Notiflix.Notify.failure('Please choose a date in the future', { timeout: 3000 });
 }
 
 function offTime() {
-  // Notiflix.Report.success('', 'Time is over!', 'Close');
-  Notiflix.Notify.success('Time is over!', { timeout: 3000 });
+  Notiflix.Report.success('', 'Time is over!', 'Close');
+  // Notiflix.Notify.success('Time is over!', { timeout: 3000 });
 }
 
 function endTime() {
-  // Notiflix.Report.warning('', 'Date is overdue, select a new date.', 'Close');
-  Notiflix.Notify.warning('Date is overdue, select a new date.', { timeout: 3000 });
+  Notiflix.Report.warning('', 'Date is overdue, select a new date.', 'Close');
+  // Notiflix.Notify.warning('Date is overdue, select a new date.', { timeout: 3000 });
 }
 
 function onBtnStart() {

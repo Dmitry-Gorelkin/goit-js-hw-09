@@ -20,10 +20,10 @@ function startPromis({ delay, step, amount }) {
   for (let i = 1; i <= amount; i++) {
     createPromise(i, delay)
       .then(value => {
-        Notiflix.Notify.success(`${value}`, { timeout: 10000 });
+        Notiflix.Notify.success(`${value}`, { timeout: 5000 });
       })
       .catch(value => {
-        Notiflix.Notify.failure(`${value}`, { timeout: 10000 });
+        Notiflix.Notify.failure(`${value}`, { timeout: 5000 });
       });
 
     delay += step;
